@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop" kind="class" language="C#" prot="public">
+    <compoundname>LD_03_Csharp_OOP_Examples::Laptop</compoundname>
+    <basecompoundref refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer" prot="public" virt="non-virtual">LD_03_Csharp_OOP_Examples.Computer</basecompoundref>
+    <basecompoundref refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep" prot="public" virt="non-virtual">LD_03_Csharp_OOP_Examples.ISleep</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aabaead761ad3ae86e24f66e24d26fe31" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep" kindref="compound">ISleep</ref></type>
+        <definition>ISleep LD_03_Csharp_OOP_Examples.Laptop.sleepController</definition>
+        <argsstring></argsstring>
+        <name>sleepController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="11" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a38fa411e5013b052b67d7e2e4a32c816" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_l_d__03___csharp___o_o_p___examples_1_1_display" kindref="compound">Display</ref></type>
+        <definition>Display LD_03_Csharp_OOP_Examples.Laptop.Display</definition>
+        <argsstring></argsstring>
+        <name>Display</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="12" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aaefe6924fee73daa583243aaea602a13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LD_03_Csharp_OOP_Examples.Laptop.IsSleeping</definition>
+        <argsstring></argsstring>
+        <name>IsSleeping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="14" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a8221274b4d3b4d05eff718d010e0eefa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LD_03_Csharp_OOP_Examples.Laptop.Laptop</definition>
+        <argsstring>(string name, int width, int heigth)</argsstring>
+        <name>Laptop</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>heigth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="24" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a28f09dd23331929b11cdc77720153e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LD_03_Csharp_OOP_Examples.Laptop.ToggleSleep</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleSleep</name>
+        <reimplements refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a51a16beac9cf61fd4d088e169790bd08">ToggleSleep</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="30" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>ISleep</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep"/>
+      </node>
+      <node id="15">
+        <label>Computer</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer"/>
+      </node>
+      <node id="14">
+        <label>LD_03_Csharp_OOP_Examples.Laptop</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>ISleep</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep"/>
+      </node>
+      <node id="20">
+        <label>LD_03_Csharp_OOP_Examples.ISleep</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep"/>
+      </node>
+      <node id="18">
+        <label>Computer</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer"/>
+      </node>
+      <node id="17">
+        <label>LD_03_Csharp_OOP_Examples.Laptop</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>sleepController</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" line="10" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Laptop.cs" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a98394d23bbf46e8aee551c746d0a0d33" prot="protected" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>_name</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a82a05be010b5fa53346c89f89ec91e6d" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>Computer</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a38fa411e5013b052b67d7e2e4a32c816" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>Display</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1af5570ada25be8618b12a83ea5e712794" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>IsOn</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aaefe6924fee73daa583243aaea602a13" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>IsSleeping</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a8221274b4d3b4d05eff718d010e0eefa" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>Laptop</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1ac3826d4cda0b12d36f06ed30e3cf8a26" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>Name</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aabaead761ad3ae86e24f66e24d26fe31" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>sleepController</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1af134a7a02923b27cf3f15a4108354cd5" prot="public" virt="virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>TogglePower</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a28f09dd23331929b11cdc77720153e21" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>ToggleSleep</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1aa53a1cb176fe267bd05314373b6d114c" prot="protected" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>TurnOff</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a578c225b5842fa789832d8da9731bca0" prot="protected" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Laptop</scope><name>TurnOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

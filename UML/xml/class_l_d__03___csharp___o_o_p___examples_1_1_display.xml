@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_l_d__03___csharp___o_o_p___examples_1_1_display" kind="class" language="C#" prot="public">
+    <compoundname>LD_03_Csharp_OOP_Examples::Display</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a2bf6c49221f4a135cb99ba3af08a7777" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int LD_03_Csharp_OOP_Examples.Display.With</definition>
+        <argsstring></argsstring>
+        <name>With</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" line="11" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a298ac1d104bf6a51706ee92dec43a2f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int LD_03_Csharp_OOP_Examples.Display.Heigth</definition>
+        <argsstring></argsstring>
+        <name>Heigth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" line="12" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a708bc33cb5d69b49479879c2874b2937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LD_03_Csharp_OOP_Examples.Display.Display</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>Display</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" line="15" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" line="10" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Display.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a708bc33cb5d69b49479879c2874b2937" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Display</scope><name>Display</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a298ac1d104bf6a51706ee92dec43a2f9" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Display</scope><name>Heigth</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a2bf6c49221f4a135cb99ba3af08a7777" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::Display</scope><name>With</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

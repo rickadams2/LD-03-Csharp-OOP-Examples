@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller" kind="class" language="C#" prot="public">
+    <compoundname>LD_03_Csharp_OOP_Examples::PowerController</compoundname>
+    <basecompoundref refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on" prot="public" virt="non-virtual">LD_03_Csharp_OOP_Examples.IPowerOn</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a1e3e0b435604ac040029c0c3df851a97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LD_03_Csharp_OOP_Examples.PowerController.IsOn</definition>
+        <argsstring></argsstring>
+        <name>IsOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" line="11" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1aac6ffd8e2256a46a26b344cd2846ed90" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LD_03_Csharp_OOP_Examples.PowerController.TurnOn</definition>
+        <argsstring>()</argsstring>
+        <name>TurnOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" line="13" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a60438bf1fbf976ad624eb18f8d8d7edb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LD_03_Csharp_OOP_Examples.PowerController.TurnOff</definition>
+        <argsstring>()</argsstring>
+        <name>TurnOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" line="18" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1accb660a5257db2d4d1df4e35d4147027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void LD_03_Csharp_OOP_Examples.PowerController.TogglePower</definition>
+        <argsstring>()</argsstring>
+        <name>TogglePower</name>
+        <reimplements refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on_1a6f71e842b3e94a5d6d690671197d0adc">TogglePower</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" line="23" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>LD_03_Csharp_OOP_Examples.PowerController</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IPowerOn</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>LD_03_Csharp_OOP_Examples.PowerController</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IPowerOn</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" line="10" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/PowerController.cs" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a1e3e0b435604ac040029c0c3df851a97" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::PowerController</scope><name>IsOn</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1accb660a5257db2d4d1df4e35d4147027" prot="public" virt="virtual"><scope>LD_03_Csharp_OOP_Examples::PowerController</scope><name>TogglePower</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a60438bf1fbf976ad624eb18f8d8d7edb" prot="protected" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::PowerController</scope><name>TurnOff</name></member>
+      <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1aac6ffd8e2256a46a26b344cd2846ed90" prot="protected" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::PowerController</scope><name>TurnOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

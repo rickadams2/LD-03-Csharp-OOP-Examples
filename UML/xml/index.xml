@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer" kind="class"><name>LD_03_Csharp_OOP_Examples::Computer</name>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a98394d23bbf46e8aee551c746d0a0d33" kind="variable"><name>_name</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1af5570ada25be8618b12a83ea5e712794" kind="property"><name>IsOn</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1ac3826d4cda0b12d36f06ed30e3cf8a26" kind="property"><name>Name</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a82a05be010b5fa53346c89f89ec91e6d" kind="function"><name>Computer</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1af134a7a02923b27cf3f15a4108354cd5" kind="function"><name>TogglePower</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1a578c225b5842fa789832d8da9731bca0" kind="function"><name>TurnOn</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer_1aa53a1cb176fe267bd05314373b6d114c" kind="function"><name>TurnOff</name></member>
+  </compound>
+  <compound refid="class_o_o_p_examples_1_1_computer" kind="class"><name>OOPExamples::Computer</name>
+    <member refid="class_o_o_p_examples_1_1_computer_1a96460431d655bd0103de79e25011a098" kind="variable"><name>_name</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1a304cb089cc592030d2d2cd4a856ddb5f" kind="property"><name>IsOn</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1af43574d61dd28bd460eeeec609f03ae6" kind="property"><name>Name</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1ae42250a9cb267a84a1e9c4cb12fca1ac" kind="function"><name>Computer</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1ad5fef11d2efb39d91e2e23eeda6c7f68" kind="function"><name>TogglePower</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1a9b61ecf3ab167628d80a973abb6d4166" kind="function"><name>TurnOn</name></member>
+    <member refid="class_o_o_p_examples_1_1_computer_1acb10f1d4d7156f99c4ed312b49a95a16" kind="function"><name>TurnOff</name></member>
+  </compound>
+  <compound refid="class_l_d__03___csharp___o_o_p___examples_1_1_display" kind="class"><name>LD_03_Csharp_OOP_Examples::Display</name>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a2bf6c49221f4a135cb99ba3af08a7777" kind="property"><name>With</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a298ac1d104bf6a51706ee92dec43a2f9" kind="property"><name>Heigth</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_display_1a708bc33cb5d69b49479879c2874b2937" kind="function"><name>Display</name></member>
+  </compound>
+  <compound refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on" kind="interface"><name>LD_03_Csharp_OOP_Examples::IPowerOn</name>
+    <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on_1ac1162237fd45586cb8f98e42a4778402" kind="property"><name>IsOn</name></member>
+    <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on_1a6f71e842b3e94a5d6d690671197d0adc" kind="function"><name>TogglePower</name></member>
+  </compound>
+  <compound refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep" kind="interface"><name>LD_03_Csharp_OOP_Examples::ISleep</name>
+    <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a676dbf702e3243c35818e41970b77d90" kind="property"><name>IsSleeping</name></member>
+    <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a51a16beac9cf61fd4d088e169790bd08" kind="function"><name>ToggleSleep</name></member>
+  </compound>
+  <compound refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop" kind="class"><name>LD_03_Csharp_OOP_Examples::Laptop</name>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aabaead761ad3ae86e24f66e24d26fe31" kind="variable"><name>sleepController</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a38fa411e5013b052b67d7e2e4a32c816" kind="property"><name>Display</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1aaefe6924fee73daa583243aaea602a13" kind="property"><name>IsSleeping</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a8221274b4d3b4d05eff718d010e0eefa" kind="function"><name>Laptop</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a28f09dd23331929b11cdc77720153e21" kind="function"><name>ToggleSleep</name></member>
+  </compound>
+  <compound refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller" kind="class"><name>LD_03_Csharp_OOP_Examples::PowerController</name>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a1e3e0b435604ac040029c0c3df851a97" kind="property"><name>IsOn</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1aac6ffd8e2256a46a26b344cd2846ed90" kind="function"><name>TurnOn</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1a60438bf1fbf976ad624eb18f8d8d7edb" kind="function"><name>TurnOff</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller_1accb660a5257db2d4d1df4e35d4147027" kind="function"><name>TogglePower</name></member>
+  </compound>
+  <compound refid="class_program" kind="class"><name>Program</name>
+    <member refid="class_program_1ada72f8d1518f89bc2e6ad807d5059564" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler" kind="class"><name>LD_03_Csharp_OOP_Examples::SleepControler</name>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler_1ae68167d3360f4f9b0a7bec48ab64e898" kind="property"><name>IsSleeping</name></member>
+    <member refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler_1ad8b90b3fa29e24828b2d739961458dba" kind="function"><name>ToggleSleep</name></member>
+  </compound>
+  <compound refid="namespace_l_d__03___csharp___o_o_p___examples" kind="namespace"><name>LD_03_Csharp_OOP_Examples</name>
+  </compound>
+  <compound refid="namespace_o_o_p_examples" kind="namespace"><name>OOPExamples</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_computer_8cs" kind="file"><name>Computer.cs</name>
+  </compound>
+  <compound refid="_desktop_8cs" kind="file"><name>Desktop.cs</name>
+  </compound>
+  <compound refid="_display_8cs" kind="file"><name>Display.cs</name>
+  </compound>
+  <compound refid="_i_power_on_8cs" kind="file"><name>IPowerOn.cs</name>
+  </compound>
+  <compound refid="_i_sleep_8cs" kind="file"><name>ISleep.cs</name>
+  </compound>
+  <compound refid="_laptop_8cs" kind="file"><name>Laptop.cs</name>
+  </compound>
+  <compound refid="_power_controller_8cs" kind="file"><name>PowerController.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_sleep_controler_8cs" kind="file"><name>SleepControler.cs</name>
+  </compound>
+  <compound refid="dir_9616fd29d0688d975d4ed22e5649dc49" kind="dir"><name>C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples</name>
+  </compound>
+  <compound refid="dir_319de599a031d4e5b88b39808ff47683" kind="dir"><name>C:/Users/thead/source/repos</name>
+  </compound>
+  <compound refid="dir_5b7b389668bfc9fd0a005a0c4458661f" kind="dir"><name>C:/Users/thead/source</name>
+  </compound>
+  <compound refid="dir_aa80171e2287aa46e5a8764992d899ff" kind="dir"><name>C:/Users/thead</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

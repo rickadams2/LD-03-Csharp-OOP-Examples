@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespace_l_d__03___csharp___o_o_p___examples" kind="namespace" language="C#">
+    <compoundname>LD_03_Csharp_OOP_Examples</compoundname>
+    <innerclass refid="class_l_d__03___csharp___o_o_p___examples_1_1_computer" prot="public">LD_03_Csharp_OOP_Examples::Computer</innerclass>
+    <innerclass refid="class_l_d__03___csharp___o_o_p___examples_1_1_display" prot="public">LD_03_Csharp_OOP_Examples::Display</innerclass>
+    <innerclass refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_power_on" prot="public">LD_03_Csharp_OOP_Examples::IPowerOn</innerclass>
+    <innerclass refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep" prot="public">LD_03_Csharp_OOP_Examples::ISleep</innerclass>
+    <innerclass refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop" prot="public">LD_03_Csharp_OOP_Examples::Laptop</innerclass>
+    <innerclass refid="class_l_d__03___csharp___o_o_p___examples_1_1_power_controller" prot="public">LD_03_Csharp_OOP_Examples::PowerController</innerclass>
+    <innerclass refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler" prot="public">LD_03_Csharp_OOP_Examples::SleepControler</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Computer.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

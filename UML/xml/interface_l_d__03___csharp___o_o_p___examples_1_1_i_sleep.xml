@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep" kind="interface" language="C#" prot="public">
+    <compoundname>LD_03_Csharp_OOP_Examples::ISleep</compoundname>
+    <derivedcompoundref refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop" prot="public" virt="non-virtual">LD_03_Csharp_OOP_Examples.Laptop</derivedcompoundref>
+    <derivedcompoundref refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler" prot="public" virt="non-virtual">LD_03_Csharp_OOP_Examples.SleepControler</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a676dbf702e3243c35818e41970b77d90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool LD_03_Csharp_OOP_Examples.ISleep.IsSleeping</definition>
+        <argsstring></argsstring>
+        <name>IsSleeping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/ISleep.cs" line="11" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/ISleep.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a51a16beac9cf61fd4d088e169790bd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LD_03_Csharp_OOP_Examples.ISleep.ToggleSleep</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleSleep</name>
+        <reimplementedby refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler_1ad8b90b3fa29e24828b2d739961458dba">ToggleSleep</reimplementedby>
+        <reimplementedby refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop_1a28f09dd23331929b11cdc77720153e21">ToggleSleep</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/ISleep.cs" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>LD_03_Csharp_OOP_Examples.ISleep</label>
+        <link refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep"/>
+      </node>
+      <node id="11">
+        <label>LD_03_Csharp_OOP_Examples.Laptop</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_laptop"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>LD_03_Csharp_OOP_Examples.SleepControler</label>
+        <link refid="class_l_d__03___csharp___o_o_p___examples_1_1_sleep_controler"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/ISleep.cs" line="10" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/ISleep.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a676dbf702e3243c35818e41970b77d90" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::ISleep</scope><name>IsSleeping</name></member>
+      <member refid="interface_l_d__03___csharp___o_o_p___examples_1_1_i_sleep_1a51a16beac9cf61fd4d088e169790bd08" prot="public" virt="non-virtual"><scope>LD_03_Csharp_OOP_Examples::ISleep</scope><name>ToggleSleep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

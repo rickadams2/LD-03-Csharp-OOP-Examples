@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_o_o_p_examples_1_1_computer" kind="class" language="C#" prot="public">
+    <compoundname>OOPExamples::Computer</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_o_o_p_examples_1_1_computer_1a96460431d655bd0103de79e25011a098" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string OOPExamples.Computer._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <initializer>= &quot;Unknown&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="12" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_o_o_p_examples_1_1_computer_1a304cb089cc592030d2d2cd4a856ddb5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool OOPExamples.Computer.IsOn</definition>
+        <argsstring></argsstring>
+        <name>IsOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="14" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_o_o_p_examples_1_1_computer_1af43574d61dd28bd460eeeec609f03ae6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string OOPExamples.Computer.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="15" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="16" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_o_o_p_examples_1_1_computer_1ae42250a9cb267a84a1e9c4cb12fca1ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OOPExamples.Computer.Computer</definition>
+        <argsstring>(string name)</argsstring>
+        <name>Computer</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="27" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_o_o_p_examples_1_1_computer_1ad5fef11d2efb39d91e2e23eeda6c7f68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void OOPExamples.Computer.TogglePower</definition>
+        <argsstring>()</argsstring>
+        <name>TogglePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="42" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="42" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_o_o_p_examples_1_1_computer_1a9b61ecf3ab167628d80a973abb6d4166" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OOPExamples.Computer.TurnOn</definition>
+        <argsstring>()</argsstring>
+        <name>TurnOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="32" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_o_o_p_examples_1_1_computer_1acb10f1d4d7156f99c4ed312b49a95a16" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OOPExamples.Computer.TurnOff</definition>
+        <argsstring>()</argsstring>
+        <name>TurnOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="37" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" line="10" column="1" bodyfile="C:/Users/thead/source/repos/LD-03-Csharp-OOP-Examples/Desktop.cs" bodystart="9" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_o_o_p_examples_1_1_computer_1a96460431d655bd0103de79e25011a098" prot="protected" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>_name</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1ae42250a9cb267a84a1e9c4cb12fca1ac" prot="public" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>Computer</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1a304cb089cc592030d2d2cd4a856ddb5f" prot="public" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>IsOn</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1af43574d61dd28bd460eeeec609f03ae6" prot="public" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>Name</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1ad5fef11d2efb39d91e2e23eeda6c7f68" prot="public" virt="virtual"><scope>OOPExamples::Computer</scope><name>TogglePower</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1acb10f1d4d7156f99c4ed312b49a95a16" prot="protected" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>TurnOff</name></member>
+      <member refid="class_o_o_p_examples_1_1_computer_1a9b61ecf3ab167628d80a973abb6d4166" prot="protected" virt="non-virtual"><scope>OOPExamples::Computer</scope><name>TurnOn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
