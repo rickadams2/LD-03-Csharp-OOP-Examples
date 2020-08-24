@@ -1,12 +1,6 @@
 
 
-# LD_03_Csharp-OOP-TipsAndTricks
-
-
-**Table of contents**
-Go to [main-portfolio](https://github.com/rickadams2/portfolio)  
-Go to sub-repo [CsharpPortfolio](https://github.com/rickadams2/CsharpPortfolio)
-
+# LD_03_Csharp-OOP-TipsAndTricks=
 
 **A brief explanation**
  Composition and code architecture are key topics in all applications.This repo concentrates on deepening the knowledge and contains some humor here and there to make the material more effective.Makes this repo more attractive for a follow-up step; giving programming lessons to children.
